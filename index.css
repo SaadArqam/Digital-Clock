@@ -79,3 +79,99 @@ body {
 #secondCircle {
     border-color: #04fc43;
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #time {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    #hours p, #minutes p, #seconds p {
+        font-size: 1.5rem;
+    }
+
+    .time-text {
+        font-size: 0.8rem;
+    }
+
+    #ampm {
+        font-size: 3rem;
+        margin-left: 50vh;
+        margin-top: 30vh;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #time {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    #hours p, #minutes p, #seconds p {
+        font-size: 1.2rem;
+    }
+
+    .time-text {
+        font-size: 0.7rem;
+    }
+
+    #ampm {
+        font-size: 2.5rem;
+        margin-left: 40vh;
+        margin-top: 25vh;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #time {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    #hours p, #minutes p, #seconds p {
+        font-size: 1rem;
+    }
+
+    .time-text {
+        font-size: 0.6rem;
+    }
+
+    #ampm {
+        font-size: 2rem;
+        margin-left: 30vh;
+        margin-top: 20vh;
+    }
+}
